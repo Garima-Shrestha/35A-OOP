@@ -15,6 +15,7 @@ public class second {
         System.out.println("Enter rate: ");
         float rate=scan.nextFloat();
         float si= amount * time * rate/100;
-        System.out.println("Simple interest is "+ si);        
+        System.out.println("Simple interest is "+ si);    
+        scan.close();    
     }
 }

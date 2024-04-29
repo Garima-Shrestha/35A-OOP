@@ -18,5 +18,6 @@ public class sixth {
         System.out.println("Product of two integers: "+product);
         double division=(double) sum/product;
         System.out.println("Division of sum and product: "+ division);
+        scan.close();
     }
 }

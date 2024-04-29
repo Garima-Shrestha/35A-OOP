@@ -19,5 +19,6 @@ public class seventh {
         System.out.print("My name is "+ name);
         System.out.print(" and my roll number is "+ rollNum);
         System.out.println(". My field of interest are "+interest);
+        scan.close();
     }
 }

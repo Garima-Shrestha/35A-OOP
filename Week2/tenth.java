@@ -1,5 +1,7 @@
 package task.Week2;
 
+import java.util.Scanner;
+
 public class tenth {
     public static void main(String[] args) {
         /* Write a program to calculate the total marks of four subjects of a student and the total percentage secured. 
@@ -10,10 +12,23 @@ public class tenth {
         d. If more than 39 -> Third class and if below than 40 the result is fail. 
         Hint: Use ternary operator */
 
-        int nep=100, math=90, science=70, english=85;
+        Scanner scan=new Scanner(System.in);
+        int nep=scan.nextInt();
+        int math=scan.nextInt();
+        int science=scan.nextInt();
+        int english=scan.nextInt();
+
         int total=nep+math+science+english;
         System.out.println("total marks: " +total);
         int per=total/4;
         System.out.println("Total Percentage: "+per);
+
+        String result = per >= 70 ? "First Class"
+                        : per > 59 ? "Upper Second Class"
+                        : per > 49 ? "Second Class"
+                        : per > 39 ? "Third Class"
+                        : "Fail";
+         System.out.println("Result: " + result);
+
     }
 }

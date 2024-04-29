@@ -12,5 +12,6 @@ public class ninth {
         double breadth=scan.nextDouble();
         int area=(int) (length*breadth);
         System.out.println("Area of rectangle: "+ area );
+        scan.close();
     }
 }

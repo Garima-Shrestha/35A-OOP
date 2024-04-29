@@ -29,6 +29,6 @@ public class tenth {
                         : per > 39 ? "Third Class"
                         : "Fail";
          System.out.println("Result: " + result);
-
+        scan.close();
     }
 }

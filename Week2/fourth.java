@@ -7,7 +7,7 @@ public static void main(String[] args) {
 
     int validAge=18;
     int age=21;
-    String result= validAge<age ? "You are eligible to vote":"You are not eligible to vote";
+    String result= validAge<age ? "You are eligible to vote!":"You are not eligible to vote!";
     System.out.println(result);
     }
 }

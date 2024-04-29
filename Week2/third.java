@@ -22,5 +22,6 @@ public class third {
         System.out.println("Volume of Cuboid "+ volumeCuboid);
         int volumeCube=side*side*side;
         System.out.println("Volume of Cube: "+ volumeCube);
+        scan.close();
     }
 }

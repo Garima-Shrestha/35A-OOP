@@ -14,5 +14,6 @@ public class fifth {
         System.out.println("Sum of two integers: "+sum);
         int product=num1*num2;
         System.out.println("Product of two integers: "+product);
+        scan.close();
     }
 }

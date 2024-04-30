@@ -20,5 +20,6 @@ public class first {
         }else{
             System.out.println("num3 is the largest");
         }
+        scan.close();
     }
 }

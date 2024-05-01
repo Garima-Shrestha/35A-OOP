@@ -34,5 +34,6 @@ public class SwitchFirst {
                 System.out.println("Invalid grade");
                 break;
         }
+        scan.close();
     }
 }

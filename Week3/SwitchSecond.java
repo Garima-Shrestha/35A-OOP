@@ -32,7 +32,7 @@ public class SwitchSecond {
                 System.out.println("Division: "+div);
                 break;
             default:
-                System.out.println("Invalid operator");
+                System.out.println("Invalid operator!");
                 break;
         }
         scan.close();

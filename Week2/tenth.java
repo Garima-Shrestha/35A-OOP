@@ -13,9 +13,13 @@ public class tenth {
         Hint: Use ternary operator */
 
         Scanner scan=new Scanner(System.in);
+        System.out.println("Enter marks for Nepali: ");
         int nep=scan.nextInt();
+        System.out.println("Enter marks for Maths: ");
         int math=scan.nextInt();
+        System.out.println("Enter marks for Science: ");
         int science=scan.nextInt();
+        System.out.println("Enter marks for English: ");
         int english=scan.nextInt();
 
         int total=nep+math+science+english;
@@ -23,7 +27,8 @@ public class tenth {
         int per=total/4;
         System.out.println("Total Percentage: "+per);
 
-        String result = per >= 70 ? "First Class": per > 59 ? "Upper Second Class"
+        String result = per >= 70 ? "First Class"
+                        : per > 59 ? "Upper Second Class"
                         : per > 49 ? "Second Class"
                         : per > 39 ? "Third Class"
                         : "Fail";

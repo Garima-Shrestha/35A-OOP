@@ -23,8 +23,7 @@ public class tenth {
         int per=total/4;
         System.out.println("Total Percentage: "+per);
 
-        String result = per >= 70 ? "First Class"
-                        : per > 59 ? "Upper Second Class"
+        String result = per >= 70 ? "First Class": per > 59 ? "Upper Second Class"
                         : per > 49 ? "Second Class"
                         : per > 39 ? "Third Class"
                         : "Fail";
